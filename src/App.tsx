@@ -17,7 +17,7 @@ function App() {
     return () => window.removeEventListener('resize', resizeHandler);
   }, [])
 
-  return <div className="bg-off-white h-dvh font-inter px-6 py-8  ">
+  return <div className="bg-off-white max-w-screen font-inter px-6 py-8  ">
     <Navbar screenWidth={screenWidth} />
     <Hero screenWidth={screenWidth} />
     <New />
