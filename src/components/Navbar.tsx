@@ -20,7 +20,7 @@ function Navbar(props: NavbarProps) {
     }
 
 
-    return <div className="flex justify-between items-center fixed bg-off-white inset-x-0 top-0 px-6 pt-4 pb-2 md:px-30 md:py-4   ">
+    return <div className="flex justify-between items-center fixed bg-off-white inset-x-0 top-0 px-6 pt-4 pb-2 md:px-48 md:py-4   ">
         <img className="h-8" src={Logo} alt="logo" />
 
         {props.screenWidth >= 768 ?

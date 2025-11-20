@@ -2,7 +2,7 @@ import ListItem from "./ListItem"
 
 function New() {
     return <div className="bg-very-dark-blue p-4 flex flex-col my-16 lg:my-0">
-        <h2 className="text-soft-orange font-bold text-3xl mb-3 ">New</h2>
+        <h2 className="text-soft-orange font-bold text-3xl mb-1 ">New</h2>
         <ul className="flex flex-col gap-4 ">
             <ListItem border={true} question="Hydrogen vs Electric Cars" answer="Will hydrogen-fueled cars ever catch upto EVs?" />
             <ListItem border={true} question="The Downsides of AI Artistry" answer="What are the possible adverse affects of on-demand AI image generation?" />
